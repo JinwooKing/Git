@@ -42,22 +42,23 @@
 	git pull origin main
 	git pull <remote> <branch>
 
-#### ETC
-	README.md 파일 생성
+## ETC
+
+### 1. README.md 파일 생성
 	$ echo sampleText > README.md
 
-	gitignore 파일 생성
+### 2. gitignore 파일 생성
 	$copy con.gitignore
 	 sampleText
 	 ^z or ^c
 
-	이미 추적중인 파일 무시하기
+### 3. 이미 추적중인 파일 무시하기
 	git rm -r --cached .
 	git add .
 	git commit -m "clear git cache"
 	git push -u origin main
 
-#### 주의사항
+### 4. 주의사항
 	.gitignore파일에 확장자 붙지 않도록 조심
 	ex).gitignore.txt 
 
