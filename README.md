@@ -61,5 +61,3 @@
 ### 4. 주의사항
 	.gitignore파일에 확장자 붙지 않도록 조심
 	ex).gitignore.txt 
-
-
